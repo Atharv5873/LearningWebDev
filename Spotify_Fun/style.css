@@ -49,11 +49,19 @@
     cursor: pointer;
 }
 
+.nav-1 ul li:hover {
+    text-decoration: underline;
+}
+
 .nav-2 i {
     margin-right: 40px;
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+}
+
+.nav-2 i:hover {
+    color: #1DB954;
 }
 
 .content {
@@ -97,6 +105,14 @@
     text-transform: uppercase;
     border: none;
     border-radius: 50px;
+    cursor: pointer;
+    border: 3px solid transparent;
+}
+
+.btn:hover {
+    background: #121212;
+    color: #1DB954;
+    border: 3px solid #1DB954;
 }
 
 .content-right {
@@ -123,11 +139,17 @@
     text-align: center;
 }
 
+.album:hover {
+    box-shadow: 0px 4px 15px rgba(30, 215, 96, 0.6);
+    transform: scale(1.02);
+}
+
 
 .cover {
     width: 100%;
     height: auto;
     object-fit: cover;
+    cursor: pointer;
 }
 
 h4 {
@@ -135,9 +157,11 @@ h4 {
     font-size: 25px;
     color: #FFFFFF;
     font-weight: 900;
+    cursor: pointer;
 }
 
 .artist {
+    cursor: pointer;
     margin-top: 10px;
     font-size: 16px;
     color: #1DB954;
@@ -182,4 +206,13 @@ h4 {
     color: #121212;
     transition: background 0.3s ease, color 0.3s ease;
     cursor: pointer;
+}
+
+.navend {
+    height: 60px;
+    width: 100%;
+    background: #1DB954;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
