@@ -54,3 +54,47 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.content {
+    height: calc(100% - 110px);
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.content-left {
+    height: 100%;
+    width: 40%;
+    padding: 80px 100px;
+}
+
+.content-left h5 {
+    font-size: 20px;
+
+    margin-bottom: 10px;
+}
+
+.content-left h1 {
+    font-size: 55px;
+    color: #1DB954;
+    margin-bottom: 25px;
+}
+
+.content-left p {
+    font-size: 20px;
+    width: 80;
+    margin-bottom: 30px;
+
+}
+
+.btn {
+    background: #1DB954;
+    color: #121212;
+    padding: 12px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+
+}
