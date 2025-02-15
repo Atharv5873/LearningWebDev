@@ -215,4 +215,8 @@ h4 {
     position: absolute;
     bottom: 0;
     left: 0;
+    background-image: url('https://i.gifer.com/YdBO.gif');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
